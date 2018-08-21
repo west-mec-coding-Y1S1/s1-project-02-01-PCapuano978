@@ -1,22 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+    <!-- #1 Above I capitilazed the whole doctype tag as that is more in line with the standard formatting of HTML pages. -->
 <head>
+
+    <!-- #1 Down here and as well as on jtc_services_txt.html, I entered my name and date as instuctucted as it provides more
+        clearly who's work this is and when it was first edited by the student. -->
 <!--
     New Perspectives on HTML5 and CSS3, 7th Edition
     Tutorial 1
     Case Problem 1
     
-    Jacobs Tree Care Services
-    Author: Patrick M Capuano 
+    Jedds Tree Care Home Page
+    Author: Patrick M Capuano
     Date:   8.21.18
 
-    Filename: jtc_services.html
-	-->
+    Filename: jtc_index.html
+   -->
 
+   <!-- #2 Three things I did here consist of setting the unicode tranformation format (or UTF) to 8 bytes which the standard for HTML.
+Second, I added both a link to the documents jtc_base.css and jtc_layout as guided by the instuctions.
+Similarly instructed, I added a title as well through the tag of the same name which gives the page it's name on a browser tab. -->
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <link rel="stylesheet" href="jtc_base.css">
+   <link rel="stylesheet" href="jtc_layout.css">
+   <title>Jedds Tree Care</title>
 </head>
 
 <body>
 
+    <!-- #3 With the start of the body, I added three sectioning level elements which include the header, aside and article tags. -->
+
+    <header>
+
+        <!-- #4 A nav tag was then added which gives a navagation list that allows hyperlinks to the sites other pages to be avaliable. 
+        I then use this navigation list to add links to both the index, or "home" page and the services page. -->
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jtc_services_txt.html">Services</a>
+        </nav>
+    </header>
+
+    <aside> 
+        <img src="jtc_comments.png" alt="Comments">
+
+
+        <!-- #5 This right here are reviews for the site found in "jtc_pages.txt" and were copy/pasted from there as such using hotkeys. -->
+            <blockquote> I hired Jedds to remove an old Sugar maple from a narrow yard. 
+                    They did the job with no damage to my garage and cleaned it all up 
+                    that same day. Great service.
+                    --- Kevin S (Dewitt) </blockquote>
+                    
+                    
+                    Jedds Tree Care promptly came to examine a downed tree and provide 
+                    an estimate for its removal. They did the job fast and at the lowest bid. 
+                    I'll call them again without hesitation for future lawn and garden needs.
+                    --- Ann K (Stockbridge)
+                    
+                    
+                    Their team took down five trees in one day and did an immaculate clean-up. 
+                    They took extra care not to disturb my lawn and garden. I highly recommend 
+                    their service.
+                    ---  David P (Lansing) </blockquote>
+            
+    </aside>
+
+    <article>
+
+    </article>
 </body>
 
 </html>
